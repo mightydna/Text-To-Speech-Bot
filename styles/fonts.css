@@ -1,0 +1,9 @@
+/* Outfit */
+@font-face {
+    font-family: 'Outfit';
+    src: url(../resources/fonts/Outfit-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'Outfit';
+    src: url(../resources/fonts/Outfit-Medium.ttf);
+  }
