@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="icon" type="image/x-icon" href="resources/icons/favicon.PNG">
+    <title>Text-To-Speech-Bot</title>
+</head>
+<body>
+    <hero>
+        <img src="resources/images/hero-image-text-to-speech.png"  id="heroimg">
+    </hero>
+    <content>
+        <headline>
+            <h2>Speechbot</h2>
+            <img src="resources/icons/text-to-speech-logo.svg" id="logo">
+        </headline>
+        <textbox>
+            <textarea id="textfield" placeholder="Enter your text"></textarea>
+            <subtext>Enter your text above and hit "play". You can choose a different voice by selecting an option from the dropdown menu.</subtext>
+        </textbox>
+        <settings>
+            <h3>Settings</h3>
+            <voiceselect>
+                <p>Voice</p>
+                <div class="divider"></div>
+                <select id="lang_select">
+                </select>
+                <div class="divider"></div>
+                <select id="actor_select">
+                </select>
+            </voiceselect>
+            <speedselect>
+                <p>Speed</p>
+                <div class="divider"></div>
+                <button class="selector_inactive" id="0_5_spd">0.5x</button>
+                <button class="selector_inactive" id="0_75_spd">0.75x</button>
+                <button class="selector_active" id="1_spd">1x</button>
+                <button class="selector_inactive" id="1_5_spd">1.5x</button>
+                <button class="selector_inactive" id="10_spd">5x</button>
+            </speedselect>
+        </settings>
+        <button id="text_to_speech">Text to Speech</button>
+    </content>
+</body>
+<script src="scripts/main.js"></script>
+</html>
